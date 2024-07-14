@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Tourism</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hotel-booking">Hotel Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#vehicle-booking">Vehicle Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex justify-content-center align-items-center">
+        <div class="container text-center">
+            <h1>Explore the World with Us</h1>
+            <p>Discover beautiful places, make unforgettable memories.</p>
+            <a href="#features" class="btn btn-primary">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Our Features</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fas fa-map-marked-alt fa-3x mb-3"></i>
+                    <h4>Best Destinations</h4>
+                    <p>We offer tours to the most amazing destinations around the globe.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-hotel fa-3x mb-3"></i>
+                    <h4>Luxurious Stays</h4>
+                    <p>Enjoy top-notch accommodations with all the comforts you need.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-headset fa-3x mb-3"></i>
+                    <h4>24/7 Support</h4>
+                    <p>Our team is always available to assist you with your travel needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Gallery</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="images/image.png" class="img-fluid" alt="Destination 1">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/image copy 2.png" class="img-fluid" alt="Destination 2">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/image copy.png" class="img-fluid" alt="Destination 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="mb-4">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <p>"An unforgettable experience! The destinations were amazing and the service was top-notch."</p>
+                        <h5>John Doe</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <p>"I loved every moment of the trip. The accommodations were luxurious and comfortable."</p>
+                        <h5>Jane Smith</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <p>"Excellent support throughout the trip. I felt safe and well taken care of at all times."</p>
+                        <h5>Emily Johnson</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What destinations do you offer?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            We offer tours to a wide range of destinations including beaches, mountains, cities, and historical sites around the globe.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is included in the tour packages?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Our tour packages typically include flights, accommodations, meals, and guided tours. Specific inclusions can vary based on the package selected.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How can I book a tour?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            You can book a tour through our website or by contacting our customer support team. We recommend booking in advance to secure your preferred dates.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hotel Booking Section -->
+    <section id="hotel-booking" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="mb-4">Hotel Booking</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <input type="text" class="form-control" placeholder="Destination">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <input type="date" class="form-control" placeholder="Check-in Date">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <input type="date" class="form-control" placeholder="Check-out Date">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Search Hotels</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Vehicle Booking Section -->
+    <section id="vehicle-booking" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Vehicle Booking</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <input type="text" class="form-control" placeholder="Pickup Location">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <input type="date" class="form-control" placeholder="Pickup Date">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <input type="date" class="form-control" placeholder="Return Date">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Search Vehicles</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="py-5 bg-dark text-white text-center">
+        <div class="container">
+            <h2 class="mb-4">Subscribe to our Newsletter</h2>
+            <form class="form-inline justify-content-center">
+                <div class="form-group mb-2">
+                    <label for="newsletterEmail" class="sr-only">Email</label>
+                    <input type="email" class="form-control" id="newsletterEmail" placeholder="Enter your email">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2 ml-2">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
